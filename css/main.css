@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(221, 151, 151);
+    background-color: #131111;
+
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    background: #000000;
+    /* background: #444444;   */
+    border-radius: 10px;
+    color: #ffffff;  
+    box-shadow: 0px 0px 8px 3px #ffffff;    /* design2 */ 
+}
+
+
+div{
+    grid-column: 1/-1;
+}
+
+
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+}   
+
+
+
+img{
+    width: 387px;
+    border-radius: 15px;
+   
+    /* box-shadow: 8px 8px 8px 1px #6fdcfd;  design1 */
+    box-shadow: 8px 8px 8px 1px #1288e3;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+article{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* FONT-STYLING */
+
+
+.fontapply p{
+    font-family: 'Merriweather', serif;
+    text-align:justify;
+    line-height:28px;
+    word-spacing: 4px;
+    /* text-transform: ; */
+    /* transform:rotate(20deg); */
+    
+    
+}
+
+
+#art1 p{
+    font-family:'Roboto Condensed', serif ;
+}
+
+#art1 h2{
+   
+    text-shadow: 0.04em 0.04em 0 #be3434, 0.08em 0.08em 0 #6fdcfd;
+       
+}
+#art3 p{
+    
+    line-height:27px;
+}
+
+.container3 > #art3 > #fw2{
+    font-size: 35px;
+}
+
+#art3 p::first-line {
+   
+        /* color: rgb(247, 37, 37); */
+        /* color: #d33c3c;
+        font-size: 25px;
+        padding: 10px 3px; */
+        
+
+        /* font-size: 21px;
+    font-weight:bolder;
+    padding-right: 5px;
+    letter-spacing:2px ;
+    color: #d53b3b;
+     */
+}
+
+/* #art4 p{
+    text-align:left;
+} */
+
+/* #art6 p{
+    text-align:left;
+} */
+
+#art8 p{
+    text-align: center;
+}
+   
+
+
+
+
+
+
+
+/* TEXT STYLING */
+
+#fw1{
+    font-size: 21px;
+    font-weight:bolder;
+ /* text-decoration: underline; */
+    padding-right: 5px;
+    letter-spacing:2px ;
+    color: #d53b3b;
+}
+
+
+
+
+/* DIFFERENT CSS CONTAINERS START */
+
+
+/* Container1 */
+
+/* #container1{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+/* Container2*/
+/* #container2{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+
+/* Container3 */
+/* #container3{
+    border-bottom: solid 5px #32bbe9;
+} */
+
+/* Container4*/
+/* #container4{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+
+/* Container5 */
+/* #container5{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+/* Container6 */
+/* #container6{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+/* Container7 */
+/* #container7{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+/* Container8 */
+/* #container8{
+    border-bottom: solid 5px  #32bbe9;
+} */
+
+
+
+
+
+/* FOR TEXT COLOR -> */
+
+#container1, #container2, 
+#container3, #container4, 
+#container5, #container6,
+#container7, #container8,
+article p {
+    color: #ffff;
+   
+}
+
+
+
+
+
+/* ORIGINAL STYLING BUT TWEAKED */
+
+h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+
+
+h2 {
+color: #ffffff; 
+font-family: '', sans-serif; 
+font-size: 58px; 
+line-height: 32px;
+margin: 40px 50px 24px;
+}
+
+
+
+p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
+
+
+/*a { 
+ font-size: 21px;
+color: #000000;  
+text-decoration: none;
+padding-right: 5px;
+}
+ */
+
+a{
+    color: #d53b3b;
+    text-decoration: none;
+}
+a:hover {
+    
+    color: #fe4141 }
