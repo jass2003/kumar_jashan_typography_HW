@@ -21,7 +21,8 @@ Submit a pull request 😄
 November 18, 2023
 
 ## Credits
-Ezekiel John Celis
+Jashan Kumar
+
 
 ## License
 MIT License
